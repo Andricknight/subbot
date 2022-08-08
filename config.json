@@ -1,0 +1,9 @@
+{
+    "type": "transcription",
+    "transcription_config": { 
+        "language": "en",
+        "additional_vocab": [
+            "Cisco"
+        ]
+    }
+}
