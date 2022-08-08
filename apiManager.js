@@ -4,7 +4,7 @@ async function uploadFile(){
 
     let formData = new FormData();
     formData.append("data_file", fileupload.files[0]);
-    formData.append("config", fetch("https://andricknight.github.io/subbot/"));
+    formData.append("config", fetch("https://andricknight.github.io/subbot/config.json"));
 
     console.log([...formData]);
 
