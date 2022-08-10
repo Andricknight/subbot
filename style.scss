@@ -1,0 +1,79 @@
+@import "_vars.scss";
+
+*{
+    font-family: $ContentFont;
+    color: $Neutral;
+}
+body{
+    background-color: $Background;
+}
+
+h1,
+h2,
+h3,
+h4{
+    font-family: $TitleFont;
+    color: $Emphasis;
+    // margin: 0;
+}
+
+.Logo {
+    max-width: 50px;
+  }
+
+  header{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background: $Background;
+    color: $Emphasis;
+    filter: brightness(130%);
+
+  }
+  
+  main {
+    display: flex;
+  }
+  
+  .phaseDiv{
+  
+      width: 500px;
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 30px;
+      padding: 20px;
+      border-radius: 20px;
+    //   border: solid 1px black;
+      background-color: $Background;
+      height: 50vh;
+      filter: brightness(120%);
+    * {
+        margin-bottom: 15px;
+        width: 60%;
+    }
+  }
+  
+  button{
+
+    background: $EmphasisDark;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    border: none;
+
+    transition-duration: 120ms;
+    &:hover{
+        filter: brightness(150%);
+    }
+
+  }
+
+  input,
+  textarea{
+
+    background: none;
+    color: black;
+
+  }

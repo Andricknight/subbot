@@ -1,0 +1,19 @@
+1
+00:00:00,810 --> 00:00:03,960
+Welcome to Speechmatics.
+We're delighted that you've
+
+2
+00:00:03,960 --> 00:00:07,770
+decided to try our speech to
+tech software to get going.
+
+3
+00:00:07,920 --> 00:00:11,850
+Just create an API key and submit a
+transcription request to our API.
+
+4
+00:00:12,300 --> 00:00:15,270
+We hope you'll be very impressed
+by the results. Thank you.

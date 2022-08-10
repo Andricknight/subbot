@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@1,300&family=Questrial&display=swap");
+body {
+  width: 100vw;
+}
+
+* {
+  margin: 0;
+}
+
+header {
+  padding: 20px;
+}/*# sourceMappingURL=Layout.css.map */

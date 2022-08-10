@@ -1,1 +1,69 @@
-/*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@1,300&family=Questrial&display=swap");
+* {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  color: #F7FFF7;
+}
+
+body {
+  background-color: #292F36;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Questrial", sans-serif;
+  color: #4ecdc4;
+}
+
+.Logo {
+  max-width: 50px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background: #292F36;
+  color: #4ecdc4;
+  filter: brightness(130%);
+}
+
+main {
+  display: flex;
+}
+
+.phaseDiv {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #292F36;
+  height: 50vh;
+  filter: brightness(120%);
+}
+.phaseDiv * {
+  margin-bottom: 15px;
+  width: 60%;
+}
+
+button {
+  background: #247F79;
+  font-size: 1.5rem;
+  border-radius: 1rem;
+  border: none;
+  transition-duration: 120ms;
+}
+button:hover {
+  filter: brightness(150%);
+}
+
+input,
+textarea {
+  background: none;
+  color: black;
+}/*# sourceMappingURL=style.css.map */

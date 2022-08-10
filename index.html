@@ -6,36 +6,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Layout.css">
 
     <title>Subbot - API Powered Subtitling</title>
 </head>
 <body>
     <header>
 
+        <img class="Logo" src="Logo.png" alt="Company Logo">
         <h1> Subbot Subtitling</h1>
-        <img src="Logo.png" alt="Company Logo">
 
     </header>
     <main>
 
-        <div>
+        <div class="phaseDiv">
             <h2>
                 Audio Transcribing
             </h2>
 
             <input id="fileupload" type="file" name="fileupload" /> 
             <button id="upload-button" onclick="uploadFile()"> Upload file </button>
+            <p>Your transcribing job ID is:</p>
+            <h4 id="jobIDfield">
+
+            </h4>
 
         </div>
-        <div>
+        <div class="phaseDiv">
             <h2>
-                Subtitle Translating
+                Check File Status
             </h2>
+
+            <input id="idTextBox" type="text" name="idTextBox">
+            <button id="check-button" onclick="getFileStatus()"> Check Status </button>
+            <p>Your transcribing job status is:</p>
+            <h4 id="statusField">
+
+            </h4>
+            <h3>
+                Save File
+            </h3>
+            <button id="check-button" onclick="downloadTXT()"> Download TXT </button>
+            <button id="check-button" onclick="downloadSRT()"> Download SRT </button>
         </div>
-        <div>
+        <div class="phaseDiv">
             <h2>
-                Your File Status
+                Translate to Spanish
             </h2>
+            <input id="translateFileUpload" type="file" name="translateFileUpload" /> 
+            <button id="translate-upload-button" onclick="postToTranslate()"> Upload file </button>
+            <button id="check-translation-button" onclick="getTranslationStatus()"> Check Status </button>
+            <p>Your translation status is:</p>
+            <h4 id="translationStatusField">
+
+            </h4>
+
         </div>
 
     </main>
